@@ -1,0 +1,82 @@
+.decor1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  /*width: 300px;
+  height: 400px;*/
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 1.5rem;
+  border: 0px black solid;
+  transition: all 0.3s ease;
+  color:rgb(237,237,237);
+  border-radius: 50%;
+  margin: 0.5rem;
+  padding:25px;
+  font-weight: bold;
+}
+
+.grey {
+  background-color: rgb(100,100,100);
+}
+
+.dot {
+  padding-bottom: 10px;
+}
+
+.mult {
+  padding-top: 26px;
+}
+
+.zero {
+  grid-column: span 2;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vw;
+  background-color: black;
+}
+
+#output {
+  grid-column: span 4;
+  border: 1px black solid;
+  background-color: black;
+  text-align: right;
+  font-size: 3rem;
+  height: 5rem;
+  width: 23rem;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(152, 152, 152);
+}
+
+.op {
+  background-color: rgb(254 , 179 , 39);
+}
+
+.op:hover {
+  background-color: rgb(195,117,30);
+}
+
+.AC,.C,.pur {
+  background-color: rgb(176, 174, 174);
+  color:black;
+}
+
+.AC:hover,.C:hover,.pur:hover {
+  background-color: rgb(112, 112, 112);
+}
+
+.zero {
+  border-radius: 3.55rem;
+  text-align: left;
+}
+
+
